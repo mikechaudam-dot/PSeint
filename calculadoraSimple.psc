@@ -5,8 +5,8 @@ Proceso calculadora
 	ESCRIBIR 'Ingrese el segundo numero';
 	LEER b;
 	DEFINIR s,r,m COMO REAL; 
-	s <- (a + b);
-	r <- (a - b);
-	m <- (a * b);
+	suma <- (a + b);
+	resta <- (a - b);
+	multiplicacion <- (a * b);
 	ESCRIBIR 'Los resultados son: suma : ',s, ' resta : ',r, ' y multiplicacion : ',m;
 FinProceso
